@@ -4,8 +4,8 @@ URL du site : http://votre-url-ici.com
 
 ### Groupe
 
-- Prénom & Nom
-- Prénom & Nom
+- Imed Saoud
+- Clément Sabourin
 
 ## Prologue
 
@@ -22,12 +22,6 @@ URL du site : http://votre-url-ici.com
 ### Environnement technique
 
 Le projet doit être construit avec le framework [VueJS](https://vuejs.org/).
-
-### Lancer le projet
-
-Se mettre dans un terminal dans le répertoire du projet forké, puis :
-* `npm i`
-* `npm run dev`
 
 #### Plugins conseillés
 
