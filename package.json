@@ -31,5 +31,8 @@
     "vue": "^2.6.10",
     "vue-hot-reload-api": "^2.3.3",
     "vue-router": "^3.0.6"
-  }
+  },
+  "description": "URL du site : http://votre-url-ici.com",
+  "main": "index.js",
+  "author": ""
 }
