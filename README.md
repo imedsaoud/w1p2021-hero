@@ -98,7 +98,7 @@ Voici un exemple de trame :
   - Phase 2
 - _Transition de phase_
   - Phase 3
-- _Transition du jeu vers le hors-jeu_
+- _Transition du jeu vers le hors-jeu
   - Page de victoire ou d'échec
 
 ## Semaine 2 : À venir
