@@ -6,6 +6,8 @@ import Characters from './components/Characters.vue';
 import Game1 from './components/Game1.vue';
 import Win from './components/Win.vue';
 import Lost from './components/Lost.vue';
+import Game2 from './components/Game2.vue';
+
 
 Vue.use(Router);
 
@@ -27,6 +29,11 @@ const router = new Router({
       path: '/game/1',
       name: '1',
       component: Game1
+    },
+    {
+      path: '/game/2',
+      name: '2',
+      component: Game2
     },
     {
       path: '/win',
