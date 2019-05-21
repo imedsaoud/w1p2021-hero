@@ -14,13 +14,11 @@ textarea {
 .big-header {
   background-color: $hetic-green;
   height: 100vh;
-
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   flex-direction: column;
-
   color: white;
 }
 
@@ -33,3 +31,5 @@ textarea {
   display: inline-block;
   border: none;
 }
+
+

@@ -1,0 +1,148 @@
+
+ 
+ {
+  "choices": {
+    "1" :{
+      "img": "../assets/img/image.jpg",
+      "title": "Choisissez l'equipement adapté",
+      "story":" dfgdsfdssdf",
+      "actions": [
+        {
+          "label": "Grappin",
+          "explication": "le grappin ....",
+          "to": 2
+        },
+        {
+          "label": "Lance-pierre",
+          "explication": "le lance pierre ....",
+          "to": 2
+        }
+      ]
+    },
+    "2": {
+      "title": "Choisissez le bon chemin",
+      "actions": [
+        {
+          "label": "Jungle",
+          "explication": "la jungle  ....",
+          "to": 6
+        },
+        {
+          "label": "Rivière",
+          "explication": "le Rivière  ....",
+          "to": 4
+        }
+      ]
+    },
+    "3": {
+      "title": "Decidez vous rapidement !",
+      "actions": [
+        {
+          "label": "Apner",
+          "explication": "Passez en apner ....",
+          "to": 4
+        },
+        {
+          "label": "Effrayer",
+          "explication": "Faire peur au croco ....",
+          "to": 4.1
+        }
+      ]
+    },
+    "3.1": {
+      "title": "Decidez vous rapidement !",
+      "actions": [
+        {
+          "label": "Passez discrètement",
+          "explication": "Passez en apner ....",
+          "to": "lost"
+        },
+        {
+          "label": "Utiliser le lance pierre",
+          "explication": "Faire peur au croco ....",
+          "to": 4.1
+        }
+      ]
+    },
+    "4": {
+      "title": "Il faut vous decidez maintenant !",
+      "actions": [
+        {
+          "label": "Longer la rive",
+          "explication": "Longer la rive ....",
+          "to": 6
+        },
+        {
+          "label": "Nager à contre courant",
+          "explication": "Nager à contre courant ....",
+          "to": "lost"
+        }
+      ]
+    },
+    "4.1": {
+      "title": "Quel nourriture voulez-vous deguster",
+      "actions": [
+        {
+          "label": "Termite",
+          "explication": "Les termites ....",
+          "to": 5
+        },
+        {
+          "label": "Larve",
+          "explication": "Les larves ....",
+          "to": 5
+        }
+      ]
+    },
+    "5": {
+      "title": "Quel chemin devons-nous emprunter , prenez une décision le temps presse !",
+      "actions": [
+        {
+          "label": "Liane",
+          "explication": "Les Lianes ....",
+          "to": 7
+        },
+        {
+          "label": "Tronc",
+          "explication": "Le tronc ....",
+          "to": "explication/1"
+        }
+      ]
+    },
+    "6": {
+      "title": "Nous devons réagir au plus vite !",
+      "actions": [
+        {
+          "label": "Suivre le cris des singes",
+          "explication": "Les Lianes ....",
+          "to": "lost"
+        },
+        {
+          "label": "Monter à l'arbre",
+          "explication": "Monter à L'arbre ....",
+          "to": 5
+        }
+      ]
+    },
+    "7": {
+      "title": "Le docteur est sauver ! Il faut ramener les medicaments au village",
+      "actions": [
+        {
+          "label": "Continuer",
+          "explication": "Les Lianes ....",
+          "to": "win"
+        },
+        {
+          "label": "Partir avec le docteur",
+          "explication": "Monter à L'arbre ....",
+          "to": "lost"
+        }
+      ]
+    }
+  },
+  "intrigue": {
+    "1": {
+      "content": "lorem"
+    }
+  }
+}
