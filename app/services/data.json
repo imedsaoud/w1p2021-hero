@@ -4,43 +4,77 @@
   "choices": {
     "1" :{
       "img": "../assets/img/image.jpg",
+      "bearGryll":"futur img de bear",
+      "explication": "La jungle est dangereuse patati patata il nous faut 1 equipement ...",
+      "actions": [
+        {
+          "label": "Continuer l'exploration",
+          "to": 1.1
+        }
+      ]
+    },
+    "1.1" :{
+      "img": "../assets/img/image.jpg",
       "title": "Choisissez l'equipement adapté",
-      "story":" dfgdsfdssdf",
       "actions": [
         {
           "label": "Grappin",
           "explication": "le grappin ....",
-          "to": 2
+          "to": 2,
+          "weapon": "Grappin"
         },
         {
           "label": "Lance-pierre",
           "explication": "le lance pierre ....",
-          "to": 2
+          "to": 2,
+          "weapon": "Lance-pierre"
         }
       ]
     },
-    "2": {
+    "2" :{
+      "img": "../assets/img/image.jpg",
+      "bearGryll":"futur img de bear",
+      "explication": "La jungle est dense , riv rapide mais croco",
+      "actions": [
+        {
+          "label": "Continuer l'exploration",
+          "to": 2.1
+        }
+      ]
+    },
+    "2.1": {
       "title": "Choisissez le bon chemin",
       "actions": [
         {
           "label": "Jungle",
           "explication": "la jungle  ....",
-          "to": 6
+          "to": 7
         },
         {
           "label": "Rivière",
-          "explication": "le Rivière  ....",
-          "to": 4
+          "explication": "la Rivière  ....",
+          "to": 3
         }
       ]
     },
-    "3": {
+    "3" :{
+      "img": "../assets/img/image.jpg",
+      "bearGryll":"futur img de bear",
+      "explication": "Oh un croco si j'avais le lance pierre ...",
+      "actions": [
+        {
+          "label": "Continuer l'exploration",
+          "to": 3.1
+        }
+      ]
+    },
+    "3.1": {
       "title": "Decidez vous rapidement !",
       "actions": [
         {
           "label": "Apner",
           "explication": "Passez en apner ....",
-          "to": 4
+          "to": 3.2
         },
         {
           "label": "Effrayer",
@@ -49,33 +83,36 @@
         }
       ]
     },
-    "3.1": {
-      "title": "Decidez vous rapidement !",
+    "3.2" :{
+      "img": "../assets/img/image.jpg",
+      "bearGryll":"futur img de bear",
+      "explication": "Le croco nous à attaquer mauvais choix , heureusement que mr bear etait la",
       "actions": [
         {
-          "label": "Passez discrètement",
-          "explication": "Passez en apner ....",
-          "to": "lost"
-        },
-        {
-          "label": "Utiliser le lance pierre",
-          "explication": "Faire peur au croco ....",
-          "to": 4.1
+          "label": "Continuer l'exploration",
+          "to": 5
         }
       ]
     },
-    "4": {
-      "title": "Il faut vous decidez maintenant !",
+    "3.4" :{
+      "img": "../assets/img/image.jpg",
+      "bearGryll":"futur img de bear",
+      "explication": "Super grace au lance pierre ....",
       "actions": [
         {
-          "label": "Longer la rive",
-          "explication": "Longer la rive ....",
-          "to": 6
-        },
+          "label": "Continuer l'exploration",
+          "to": 3.1
+        }
+      ]
+    },
+    "4" :{
+      "img": "../assets/img/image.jpg",
+      "bearGryll":"futur img de bear",
+      "explication": "Nourriture est importante blabla",
+      "actions": [
         {
-          "label": "Nager à contre courant",
-          "explication": "Nager à contre courant ....",
-          "to": "lost"
+          "label": "Continuer l'exploration",
+          "to": 4.1
         }
       ]
     },
@@ -85,31 +122,101 @@
         {
           "label": "Termite",
           "explication": "Les termites ....",
-          "to": 5
+          "to": 6.1
         },
         {
           "label": "Larve",
           "explication": "Les larves ....",
-          "to": 5
+          "to": 6.1
         }
       ]
     },
-    "5": {
+    "5" :{
+      "img": "../assets/img/image.jpg",
+      "bearGryll":"futur img de bear",
+      "explication": "on est emporté par le courant c'est la mierda ",
+      "actions": [
+        {
+          "label": "Continuer l'exploration",
+          "to": 5.1
+        }
+      ]
+    },
+    "5.1": {
+      "title": "Il faut vous decidez maintenant !",
+      "actions": [
+        {
+          "label": "Longer la rive",
+          "explication": "Longer la rive ....",
+          "to": 7
+        },
+        {
+          "label": "Nager à contre courant",
+          "explication": "Nager à contre courant ....",
+          "to": "lost"
+        }
+      ]
+    },
+    "6" :{
+      "img": "../assets/img/image.jpg",
+      "bearGryll":"futur img de bear",
+      "explication": "Merde, un ravin.",
+      "actions": [
+        {
+          "label": "Continuer l'exploration",
+          "to": 6.1
+        }
+      ]
+    },
+    "6.1": {
       "title": "Quel chemin devons-nous emprunter , prenez une décision le temps presse !",
       "actions": [
         {
           "label": "Liane",
           "explication": "Les Lianes ....",
-          "to": 7
+          "to": 6.2
         },
         {
           "label": "Tronc",
           "explication": "Le tronc ....",
-          "to": "explication/1"
+          "to": 9
         }
       ]
     },
-    "6": {
+    "6.2" :{
+      "img": "../assets/img/image.jpg",
+      "bearGryll":"futur img de bear",
+      "explication": "Bien joué !",
+      "actions": [
+        {
+          "label": "Continuer l'exploration",
+          "to": 6.3
+        }
+      ]
+    },
+    "6.3" :{
+      "img": "../assets/img/image.jpg",
+      "bearGryll":"futur img de bear",
+      "explication": "J'entends le proffesseur allons y !",
+      "actions": [
+        {
+          "label": "Continuer l'exploration",
+          "to": 8
+        }
+      ]
+    },
+    "7" :{
+      "img": "../assets/img/image.jpg",
+      "bearGryll":"futur img de bear",
+      "explication": "J'entendsd des cris de singe ! .....",
+      "actions": [
+        {
+          "label": "Continuer l'exploration",
+          "to": 7.1
+        }
+      ]
+    },
+    "7.1": {
       "title": "Nous devons réagir au plus vite !",
       "actions": [
         {
@@ -120,11 +227,22 @@
         {
           "label": "Monter à l'arbre",
           "explication": "Monter à L'arbre ....",
-          "to": 5
+          "to": 7.2
         }
       ]
     },
-    "7": {
+    "7.2" :{
+      "img": "../assets/img/image.jpg",
+      "bearGryll":"futur img de bear",
+      "explication": "Je vois de la fumé le proffesseu est surement par la !!!!!",
+      "actions": [
+        {
+          "label": "Continuer l'exploration",
+          "to": 6
+        }
+      ]
+    },
+    "8": {
       "title": "Le docteur est sauver ! Il faut ramener les medicaments au village",
       "actions": [
         {
@@ -138,11 +256,17 @@
           "to": "lost"
         }
       ]
-    }
-  },
-  "intrigue": {
-    "1": {
-      "content": "lorem"
+    },
+    "9" :{
+      "img": "../assets/img/image.jpg",
+      "bearGryll":"futur img de bear",
+      "explication": "lE TRONC A CASSER , heuresement nous avons le grapin",
+      "actions": [
+        {
+          "label": "Continuer l'exploration",
+          "to": 6.3
+        }
+      ]
     }
   }
 }
