@@ -1,9 +1,21 @@
 <template>
     <div class ="big-header">
-        <div>{{step.title}}</div>
-        <div> {{step.explication}}</div>
-        <div v-on:click = "doEffect(action)" v-for="action in step.actions" class = "button">{{ action.label }}</div>
+      <div class ="buttonChoice">
+         <div v-on:click = "doEffect(action)" v-for="action in step.actions" class = "button">{{ action.label }}</div>
+      </div>
+         <audio
+        autoplay
+      
+        src="../assets/img/heros.mp3">
+            Your browser does not support the
+            <code>audio</code> element.
+     </audio>
+     <video autoplay>
+        <source src="../assets/img/beach.mp4"
+                type="video/mp4">
+    </video >
         <img :src="step.img" alt="">
+        <div class = "title">{{step.title}}</div>
     </div>
 </template>
 

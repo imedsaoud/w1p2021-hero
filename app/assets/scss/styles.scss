@@ -1,5 +1,6 @@
+
 @import 'reset';
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro&display=swap');
 
 $hetic-green: #0de595;
 
@@ -8,28 +9,148 @@ button,
 input,
 select,
 textarea {
-  font-family: 'Roboto';
+  font-family: 'Advent Pro', sans-serif;
 }
 
 .big-header {
-  background-color: $hetic-green;
   height: 100vh;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
   flex-direction: column;
   color: white;
+  font-size: 25px;
+
 }
 
 .button {
-  color: $hetic-green;
+  color: white;
   text-decoration: none;
-  background: white;
-  padding: 5px;
-  border-radius: 5px;
+  padding: 20px;
+  border-radius: 15px;
   display: inline-block;
   border: none;
+  flex-wrap: wrap;
+  background-image: url('../img/images.jpeg');
+  margin-top: 20px;
+  font-size: 18px;
+  margin-bottom: 20px;
+
+}
+
+video { 
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
+background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+background-size: cover;
+transition: 1s opacity;
+}
+
+.buttonChoice {
+  display: flex;
+  flex-flow: column;
+}
+
+.title {
+  width: 800px;
+  background-image: url('../img/images.jpeg');
+  padding: 17px;
 }
 
 
+
+.text {
+  margin-top: 80vh;
+}
+
+img {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: -1;
+}
+
+
+.big-headers {
+  background-image: url('../img/Bear-Grylls.jpeg');
+  background-size: 100%;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+
+
+  h1 {
+    font-size: 50px;
+    padding: 40px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  .img {
+    justify-content: flex-start;
+    width: 750px;
+    height: 400px;
+  }
+}
+
+.Lost {
+    background-image: url('../img/lostt.jpg');
+    color: white;
+    font-size: 40px;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    padding-top: 0vh;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.lostTitle {
+  background-image: url('../img/images.jpeg');
+}
+
+
+.win {
+  background-image: url('../img/win.jpg');
+  background-size: 100%;
+  color: white;
+  justify-content: center;
+  font-size: 30px;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  
+
+  .buttoon {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 15px;
+  display: inline-block;
+  border: none;
+
+  flex-wrap: wrap;
+  background-image: url('../img/images.jpeg');
+  }
+
+  h1 {
+    padding-top: 40vh;
+  }
+}

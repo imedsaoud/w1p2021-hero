@@ -1,6 +1,7 @@
 <template>
-  <div class="big-header">
-    <h1>Hahaha Lost</h1>
+  <div class="Lost">
+    <h1 class ="lostTitle">Vous n'avez pas réussi a atteindre votre mission ! <br> Retentez votre chance !
+    </h1>
     <br />
     <router-link class="button" to="/characters">Rejouer</router-link>
     <router-link class="button" to="/">Quitter</router-link>
