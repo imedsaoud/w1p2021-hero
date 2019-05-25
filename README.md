@@ -5,7 +5,7 @@ URL du site : https://sabou-imed.netlify.com
 ### Groupe
 
 - Saoud Imed
-- Clément Sabourin
+- Clement Sabourin
 
 ### Grille d'auto-évaluation
 
