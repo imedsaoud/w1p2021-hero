@@ -154,3 +154,33 @@ img {
     padding-top: 40vh;
   }
 }
+
+.slode-leave-active,
+.slode-enter-active {
+  &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: translateY(100vh);
+    background: black;
+    z-index: 3;
+  }
+}
+
+.slode-leave-active {
+  animation: fake 1s;
+  &::after {
+    animation: slodeLeave 1s;
+  }
+}
+
+.slode-enter-active {
+  animation: fake 2s;
+  &::after {
+    animation: slodeEnter 1s ease 1s;
+  }
+}

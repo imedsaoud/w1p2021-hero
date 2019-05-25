@@ -1,4 +1,5 @@
 <template>
+<transition name="slode">
     <div class ="big-header">
       <div class ="buttonChoice">
          <div v-on:click = "doEffect(action)" v-for="action in step.actions" class = "button">{{ action.label }}</div>
@@ -17,7 +18,9 @@
         <img :src="step.img" alt="">
         <div class = "title">{{step.title}}</div>
     </div>
+    </transition>
 </template>
+
 
 <script>
   import data from '../services/data.json';
